@@ -170,7 +170,7 @@ def BP_critical_yielding(SGR, Zmax):
             elif z[i] > 3500:
                 inner.append((s[i] * 0.15 + 1.9) * 14.5038)
             else:
-                inner.append((s[i] * 0.15 + 1.9) * 14.5038)
+                inner.append((s[i] * 0.17 + 0.92) * 14.5038)
         BP_Y.append(inner)
     return BP_Y
 
